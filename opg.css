@@ -1,4 +1,36 @@
+body {
+    font-family: Helvetica;
+  color: white;  
+}
+Section{
+    border:2px dashed purple;
+    overflow: auto;
+}
 div{
-	font-famiily: arial;
-	font: 16 bold underline;
+    margin: 5px;
+    border: 2px dashed purple
+}
+#redBox {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    //float: left;
+}
+#greenBox {
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    color: yellow;
+    opacity: 0.9;
+    //float: left;
+    position: fixed;
+    top: 20px;
+    left:20px;        
+}
+#blueBox {
+    background-color: blue;
+    width: 200px;
+    Height: 200px;
+    color: yellow;
+    //float:left;
 }
